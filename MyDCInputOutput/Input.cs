@@ -9,7 +9,7 @@ namespace MyDCInputOutput
         /// Читает одну строку пользовательского ввода
         /// </summary>
         /// <returns></returns>
-        internal static string? Data()
+        public static string? Data()
         {
             Console.ForegroundColor = ConsoleColor.Green;
             var choice = Console.ReadLine();
@@ -23,7 +23,7 @@ namespace MyDCInputOutput
         /// <param name="menu">Печатаемое меню</param>
         /// <param name="message">Заглавие к меню</param>
         /// <returns>Номер выбранного пункта меню</returns>
-        internal static uint MenuAction(string[] menu, string message)
+        public static uint MenuAction(string[] menu, string message)
         {
             uint action;
             string? choice;
@@ -62,7 +62,7 @@ namespace MyDCInputOutput
         /// <param name="message">Приглашенние к вводу числа</param>
         /// <param name="error">Сообщение об ошибке</param>
         /// <returns></returns>
-        internal static int IntNumber(string message, string error)
+        public static int IntNumber(string message, string error)
         {
             bool isCorrect;
             int number;

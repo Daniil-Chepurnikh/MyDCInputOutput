@@ -3,13 +3,13 @@ using System.Diagnostics;
 
 namespace MyDCInputOutput
 {
-    internal class Output
+    public class Output
     {
         /// <summary>
         /// Сообщает об ошибках
         /// </summary>
         /// <param name="error">Печатаемая ошибка</param>
-        internal static void Error(string error) => Message($"Ошибка: {error}!\n", ConsoleColor.Red);
+        public static void Error(string error) => Message($"Ошибка: {error}!\n", ConsoleColor.Red);
 
         /// <summary>
         /// Печатаем красивые сообщения пользователю
