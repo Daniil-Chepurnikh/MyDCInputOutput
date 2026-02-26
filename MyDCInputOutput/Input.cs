@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace MyDCInputOutput
+namespace MyDCInputOutputConsole
 {
     public class Input
     {
