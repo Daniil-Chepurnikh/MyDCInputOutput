@@ -24,6 +24,18 @@ namespace MyDCInputOutputConsole
         }
 
         /// <summary>
+        /// Печатаем красивые сообщения пользователю
+        /// </summary>
+        /// <param name="obj">Чтщ-то у чего должен быть ToString</param>
+        /// <param name="color">Цвет печать</param>
+        public static void Message(object obj, ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            Console.Write(obj);
+            Console.ResetColor();
+        }
+
+        /// <summary>
         /// Печатает строки
         /// </summary>
         /// <param name="color">Цвет печати</param>
