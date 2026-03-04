@@ -3,6 +3,9 @@ using System.Diagnostics;
 
 namespace MyDCInputOutputConsole
 {
+    /// <summary>
+    /// Класс ввода данных
+    /// </summary>
     public class Input
     {
         /// <summary>
