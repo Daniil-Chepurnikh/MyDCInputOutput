@@ -6,7 +6,7 @@ namespace MyDCInputOutputConsole
     /// <summary>
     /// Класс вывода данных
     /// </summary>
-    public class Output
+    public static class Output
     {
         /// <summary>
         /// Сообщает об ошибках

@@ -6,7 +6,7 @@ namespace MyDCInputOutputConsole
     /// <summary>
     /// Класс ввода данных
     /// </summary>
-    public class Input
+    public static class Input
     {
         /// <summary>
         /// Читает одну строку пользовательского ввода
