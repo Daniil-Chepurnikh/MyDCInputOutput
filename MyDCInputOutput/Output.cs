@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace MyDCInputOutputConsole
+namespace MyDCInputOutput
 {
     /// <summary>
     /// Класс вывода данных
