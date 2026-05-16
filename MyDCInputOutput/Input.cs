@@ -51,7 +51,7 @@ namespace MyDCInputOutput
                     }
                 } while (!isCorrectAction);
 
-                Output.Message($"Вы выбрали дейстиве: {menu[action - 1]}\n", ConsoleColor.White);
+                Output.Message($"\u001b[3mВы выбрали дейстиве: {menu[action - 1]}\u001b[3m\n", ConsoleColor.Magenta);
                 Output.Message("Вы уверены в своём выборе? Если уверены, напишите ДА(в любом регистре), любой другой ввод будет воспринят как НЕТ:  ", ConsoleColor.White);
                 choice = Input.Data();
 
